@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/yangyi/.nvm/versions/node/v12.18.2/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js add clear-webpack-plugin --save-dev
+
+PATH: 
+  /Users/yangyi/.rvm/gems/ruby-2.4.2/bin:/Users/yangyi/.rvm/gems/ruby-2.4.2@global/bin:/Users/yangyi/.rvm/rubies/ruby-2.4.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/yangyi/.rvm/gems/ruby-2.4.2/bin:/Users/yangyi/.rvm/gems/ruby-2.4.2@global/bin:/Users/yangyi/.rvm/rubies/ruby-2.4.2/bin:/Users/yangyi/.nvm/versions/node/v12.18.2/bin:/Users/yangyi/.rvm/bin:/Users/yangyi/.rvm/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.18.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/clear-webpack-plugin: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:140665:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141637:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "webpack_dome",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@babel/preset-env": "^7.12.7",
+      "@babel/preset-typescript": "^7.12.7",
+      "babel-loader": "^8.2.2",
+      "css-loader": "^5.0.1",
+      "html-webpack-plugin": "^4.5.0",
+      "less": "^3.12.2",
+      "less-loader": "^7.1.0",
+      "style-loader": "^2.0.0",
+      "vue-loader": "^15.9.5",
+      "vue-template-compiler": "^2.6.12",
+      "webpack": "^5.8.0",
+      "webpack-cli": "^4.2.0",
+      "webpack-dev-server": "^3.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
